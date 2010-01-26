@@ -1,12 +1,9 @@
 #! /usr/bin/env python
 
-import re
 from urllib2 import urlopen, HTTPError
 
 string = raw_input("Please enter a string: ")
-if string.isalpha():
-	print 'Good!'
-else:
+if not string.isalpha():
 	print 'ERROR: Make sure your string contains only letters!'
 	exit()
 
