@@ -11,7 +11,7 @@ else:
 	exit()
 
 try:
-	f = urlopen('http://localhost:8080/Soundex2/soundex?input='+string)
+	f = urlopen('http://localhost:8080/Soundex/soundex?input='+string)
 	print string.upper() + ' yields ' + f.read(4) + ' via Soundex'
 except HTTPError, e:
 	print 'Error code: '+str(e.code)
