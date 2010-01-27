@@ -31,4 +31,4 @@ except HTTPError, e: #Handles HTTP errors like 404 - Not Found, 403 - Forbidden,
 	else:
 		print 'Unknown error'
 except URLError:
-	print 'Request timed out.  Could not connect to server '+defualt_url
+	print 'Request timed out.  Could not connect to server '+default_url
