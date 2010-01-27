@@ -3,7 +3,7 @@
 import socket
 from urllib2 import urlopen, HTTPError, URLError
 
-default_url = 'http://locaalhost:8080/Soundex/'
+default_url = 'http://localhost:8080/Soundex/'
 
 # timeout in seconds
 timeout = 10
