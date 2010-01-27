@@ -5,20 +5,20 @@ The implementation contains two parts: a Java servlet and a client written in
 Python.  
 
 ********USAGE*********
-To install the servlet, simply load the included .war file into your application
-server (Tomcat, Jetty, ...).  If you are running it locally, the default URL for
-the server is http://localhost:8080/SoundexExercise.  If that is not the case,
-the client script will need to be edited.
+To install the servlet, simply load the included .war file, located in the "war/"
+folder into your application server (Tomcat, Jetty, ...).  If you are running it
+locally, the default URL for the server is http://localhost:8080/SoundexExercise.
+If that is not the case, the client script will need to be edited.
 
 If you would like to compile the Java source code yourself, run the ANT script
 called "build.xml" in the WEB-INF directory.
 
-To use the client, simply execute "soundex.py", which is included in client folder 
-of the download.  By default, the client will connect to the URL mentioned 
-above.  The script can be edited by the the user to connect to a different 
-servlet by changing the variable, "default_url".  Make sure "soundex.py" is 
-executable by entering  "chmod +x soundex.py" into the shell while in the client/
-directory.
+To use the client, simply execute "soundex.py" on the command line, which is 
+included in client folder of the download.  By default, the client will connect
+to the URL mentioned above.  The script can be edited by the the user to connect 
+to a different servlet by changing the variable, "default_url".  Make sure 
+"soundex.py" is executable by entering  "chmod +x soundex.py" into the shell
+while in the "client/" directory.
 
 ********LEGAL********* 
 This software is in the public domain.  You may copy, modify, and use it as you
